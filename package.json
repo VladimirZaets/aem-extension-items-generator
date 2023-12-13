@@ -2,9 +2,16 @@
   "name": "@adobe/aio-cli-plugin-PLUGINNAME",
   "version": "0.0.0",
   "dependencies": {
+    "@adobe/aem-cf-admin-ui-ext-tpl": "^1.0.0-beta.24",
     "@adobe/aio-lib-core-config": "^2.0.0",
     "@adobe/aio-lib-core-logging": "^1.1.0",
-    "@oclif/core": "^1.5.3"
+    "@oclif/core": "^1.5.3",
+    "ejs": "^3.1.9",
+    "escodegen": "^2.1.0",
+    "esprima": "^4.0.1",
+    "estraverse": "^5.3.0",
+    "inquirer": "^8.2.6",
+    "slugify": "^1.6.6"
   },
   "devDependencies": {
     "@adobe/eslint-config-aio-lib-config": "^1.4.0",
